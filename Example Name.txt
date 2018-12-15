@@ -1,0 +1,50 @@
+Tutorial-Install and configure :
+================================
+>> http://www.javainuse.com/elasticsearch/elasticinstall
+
+>> localhost:9200
+
+Installing the Head Plugin for Elasticsearch :
+==============================================
+
+>> http://www.javainuse.com/elasticsearch/elastichead
+
+>> http://localhost:9200/_plugin/head/
+
+Perform basic operations with Elasticsearch :
+=============================================
+
+To See indexes:
+===============
+
+>> http://localhost:9200/_cat/indices
+
+>> https://youtu.be/Qh2O88FTlWc
+
+1 * localhost:9200 (GET)
+2 * localhost:9200/_cat/health (GET)
+3 * localhost:9200/_cat/health?v&pretty (GET)
+4 * localhost:9200/_cat/nodes?v&pretty (GET)
+5 * localhost:9200/_cat/indices (GET)
+
+Creating Indices:
+
+By Using cURL in commandline tool  >> https://youtu.be/EJE8Qusn4Mo
+
+request PUT  --- >localhost:9200/students
+
+To see what are there in student indices 
+
+request GET  --  >localhost:9200/students?&pretty
+
+
+Inserting data into student Indices:
+
+To see data in students : 
+
+
+Kibana:
+=======
+
+https://youtu.be/gQ1c1uILyKI 
+
